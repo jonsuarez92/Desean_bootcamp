@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer">
             <div className="socialMedia">
 
-                <p> &copy; 2022 whatever-he-wants.com</p>
+                <p> &copy; 2022 seandontrades.com</p>
             </div>
 
         </div>

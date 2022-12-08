@@ -1,7 +1,9 @@
-
+import React from "react";
 import { Spinner, Carousel, Button, Container, Row, Col } from "react-bootstrap"
+import { Link } from "react-router-dom";
 //components
 import Card from '../../components/Card/Card'
+
 import cardsArr from "../../data";
 
 
@@ -26,39 +28,43 @@ const Home = () => {
         <>
             <div className="testMain">
                 <h1>Sean BootCamp !</h1>
+                <Link to="https://checkout.stripe.com/c/pay/cs_live_a1NseJE8iWo6AN9znKj9mrIGF0ewJngJvuFnHfxF2bsWIk0HgMgmAfhKQ5#fidkdWxOYHwnPyd1blppbHNgWjA0TWEyblNEdzBNS3d3Vj1xMUZ%2FYkJkRHZgNWlcN21CfGxoaWpJTWZOZ0xOZ2BiZzdgTkBmdUdvU3N1NnJHX3U0UFYwNlx3fTxLPHdjaj1McEBVXzxTam5KNTVPYlxPXUdEbCcpJ3VpbGtuQH11anZgYUxhJz8nNmZ2NTVINnBTYnUwZ2Z2Nz09J3gl"><Button style={{ marginTop: '10px', marginBottom: '20px' }} variant="success">Enroll Now!</Button></Link>
+
                 <div>
+
+
                     <div className='testc'>
                         <Carousel style={{ maxWidth: "400px", marginBottom: '25px' }}>
                             <Carousel.Item>
-                                <img
+                                <img style={{ borderRadius: '50px', }}
                                     className="d-block w-100"
-                                    src="https://bullymake.com/wp-content/uploads/2015/10/278774-dogs-dobermans-scaled.jpg"
+                                    src="https://i.imgur.com/zQUE4ll.jpg"
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Loki and Marlow</h3>
+                                    <h3></h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <img style={{ borderRadius: '50px', }}
                                     className="d-block w-100"
-                                    src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F09%2F10%2Fdoberman-mama-adopts-stray-kitten-2000.jpg"
+                                    src="https://i.imgur.com/S8e7LOA.jpg"
                                     alt="Second slide"
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Koda</h3>
+                                    <h3></h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <img style={{ borderRadius: '50px', }}
                                     className="d-block w-100"
-                                    src="https://www.bil-jac.com/media/iivhvgbm/doberman-pinscher-1089555870.jpg"
+                                    src="https://i.imgur.com/pczKXhF.jpg"
                                     alt="Third slide"
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Harley</h3>
+                                    <h3></h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
