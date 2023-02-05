@@ -28,7 +28,7 @@ const Home = () => {
         <>
             <div className="testMain">
                 <h1>Sean BootCamp !</h1>
-                <Link to="https://checkout.stripe.com/c/pay/cs_live_a1NseJE8iWo6AN9znKj9mrIGF0ewJngJvuFnHfxF2bsWIk0HgMgmAfhKQ5#fidkdWxOYHwnPyd1blppbHNgWjA0TWEyblNEdzBNS3d3Vj1xMUZ%2FYkJkRHZgNWlcN21CfGxoaWpJTWZOZ0xOZ2BiZzdgTkBmdUdvU3N1NnJHX3U0UFYwNlx3fTxLPHdjaj1McEBVXzxTam5KNTVPYlxPXUdEbCcpJ3VpbGtuQH11anZgYUxhJz8nNmZ2NTVINnBTYnUwZ2Z2Nz09J3gl"><Button style={{ marginTop: '10px', marginBottom: '20px' }} variant="success">Enroll Now!</Button></Link>
+                <a href="https://checkout.stripe.com/c/pay/cs_live_a1o4CiKoxM7em1ZHwQKxTnxuLDoz2P2SvGVdULmGkLOPh8J9Ezmj5KfhNM#fidkdWxOYHwnPyd1blppbHNgWjA0TWEyblNEdzBNS3d3Vj1xMUZ%2FYkJkRHZgNWlcN21CfGxoaWpJTWZOZ0xOZ2BiZzdgTkBmdUdvU3N1NnJHX3U0UFYwNlx3fTxLPHdjaj1McEBVXzxTam5KNTVPYlxPXUdEbCcpJ3VpbGtuQH11anZgYUxhJz8nNmZ2NTVINnBTYnUwZ2Z2Nz09Jyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKmZtYGZuanBxK3Zxd2x1YCtmamgqJ3gl"><Button style={{ marginTop: '10px', marginBottom: '20px' }} variant="success">Enroll Now!</Button></a>
 
                 <div>
 
@@ -63,6 +63,76 @@ const Home = () => {
                                     alt="Third slide"
                                 />
 
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/M1Tc67R.jpg"
+                                    alt="fourth slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/llxGJT0.jpg"
+                                    alt="fifth slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/UKJKyvw.jpg"
+                                    alt="sixth slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/PVuvki1.jpg"
+                                    alt="seventh slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/he9Ut9j.jpg"
+                                    alt="eighth slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/7F0JZuL.jpg"
+                                    alt="ninth slide"
+                                />
+                                <Carousel.Caption>
+                                    <h3></h3>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img style={{ borderRadius: '50px', }}
+                                    className="d-block w-100"
+                                    src="https://i.imgur.com/zpoCTRg.jpg"
+                                    alt="tenth slide"
+                                />
                                 <Carousel.Caption>
                                     <h3></h3>
                                 </Carousel.Caption>

@@ -12,7 +12,7 @@ const HomeShowPage = () => {
                 <h1>
                     About Sean's BootCamp
                 </h1>
-                <Link to="https://checkout.stripe.com/c/pay/cs_live_a1NseJE8iWo6AN9znKj9mrIGF0ewJngJvuFnHfxF2bsWIk0HgMgmAfhKQ5#fidkdWxOYHwnPyd1blppbHNgWjA0TWEyblNEdzBNS3d3Vj1xMUZ%2FYkJkRHZgNWlcN21CfGxoaWpJTWZOZ0xOZ2BiZzdgTkBmdUdvU3N1NnJHX3U0UFYwNlx3fTxLPHdjaj1McEBVXzxTam5KNTVPYlxPXUdEbCcpJ3VpbGtuQH11anZgYUxhJz8nNmZ2NTVINnBTYnUwZ2Z2Nz09J3gl"><Button style={{ marginTop: '10px', marginBottom: '20px' }} variant="success">Enroll Now!</Button></Link>
+                <a href="https://checkout.stripe.com/c/pay/cs_live_a1o4CiKoxM7em1ZHwQKxTnxuLDoz2P2SvGVdULmGkLOPh8J9Ezmj5KfhNM#fidkdWxOYHwnPyd1blppbHNgWjA0TWEyblNEdzBNS3d3Vj1xMUZ%2FYkJkRHZgNWlcN21CfGxoaWpJTWZOZ0xOZ2BiZzdgTkBmdUdvU3N1NnJHX3U0UFYwNlx3fTxLPHdjaj1McEBVXzxTam5KNTVPYlxPXUdEbCcpJ3VpbGtuQH11anZgYUxhJz8nNmZ2NTVINnBTYnUwZ2Z2Nz09Jyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKmZtYGZuanBxK3Zxd2x1YCtmamgqJ3gl"><Button style={{ marginTop: '10px', marginBottom: '20px' }} variant="success">Enroll Now!</Button></a>
                 <div>
                     <Container style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: 'column' }}>
                         <img style={{
@@ -34,12 +34,20 @@ const HomeShowPage = () => {
                             height: '300px'
                         }} src="https://cdn.mos.cms.futurecdn.net/avQoSGU9uTjFCgtCW3Rrhk.jpg" alt="" />
                         <Container style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: 'column' }}>
-                            <h2>What the Course entails</h2>
-                            <p >Two classes per week, beginner and intermediate class
-                                weekly game plan every Sunday
-                                Live trading 1-2 times per week
-                            </p>
-                            <h3>If you</h3>
+                            <h2>What The Course Entails</h2>
+                            <ul>
+                                <li>Two classes per week</li>
+                            </ul>
+                            <ul>
+                                <li>beginner and intermediate class</li>
+                            </ul>
+                            <ul>
+                                <li>weekly game plan every Sunday</li>
+                            </ul>
+                            <ul>
+                                <li>Live trading 1-2 times per week</li>
+                            </ul>
+                            <h3>If You</h3>
                             <div>
                                 <ul>
                                     <li>
@@ -57,10 +65,12 @@ const HomeShowPage = () => {
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li>Want to have the potential to create generational wealth
-                                        This bootcamp is for you!”
+                                    <li>Want to have the potential to create generational wealth,
                                     </li>
+
                                 </ul>
+                                <h3>Then this bootcamp is for you!”
+                                </h3>
                             </div>
 
                         </Container>
